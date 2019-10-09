@@ -3,3 +3,19 @@
 ################################################################################
 
 /.vs/RabbitMQDemo/v16/Server/sqlite3
+/DirectTypeConsumer1/bin/Debug/netcoreapp3.0
+/DirectTypeConsumer1/obj
+/DirectTypeConsumer2/bin/Debug/netcoreapp3.0
+/DirectTypeConsumer2/obj
+/EmitLog/bin/Debug/netcoreapp3.0
+/EmitLog/obj
+/ExchangeTypeDirect/bin/Debug/netcoreapp3.0
+/ExchangeTypeDirect/obj
+/ReceiveLogs/bin/Debug/netcoreapp3.0
+/ReceiveLogs/obj/Debug/netcoreapp3.0
+/ReceiveLogs/obj
+/Receiver/bin/Debug/netcoreapp3.0
+/Receiver/obj
+/Sender/bin/Debug/netcoreapp3.0
+/Sender/obj
+/TopicTypeProducer/obj
