@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogs", "ReceiveLogs\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExchangeType", "ExchangeType", "{98CD434E-7944-4D92-AF2C-A756C5954875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectTypeProducer", "ExchangeTypeDirect\DirectTypeProducer.csproj", "{76B113B1-83E7-4674-A099-180E6AA15F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectTypeProducer", "ExchangeTypeDirect\DirectTypeProducer.csproj", "{76B113B1-83E7-4674-A099-180E6AA15F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectTypeConsumer1", "DirectTypeConsumer1\DirectTypeConsumer1.csproj", "{3B04816F-658F-40B4-91D8-9103847BFFB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectTypeConsumer1", "DirectTypeConsumer1\DirectTypeConsumer1.csproj", "{3B04816F-658F-40B4-91D8-9103847BFFB6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Direct", "Direct", "{BDE1DF76-CBDC-4DCA-A699-368526AEE319}"
 EndProject
@@ -27,9 +27,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic", "Topic", "{FE54F42C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fanout", "Fanout", "{9B56A0BF-C61D-4321-818B-A47F6C23BB9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectTypeConsumer2", "DirectTypeConsumer2\DirectTypeConsumer2.csproj", "{56437227-70F8-47BF-A30E-DD7B58A61F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectTypeConsumer2", "DirectTypeConsumer2\DirectTypeConsumer2.csproj", "{56437227-70F8-47BF-A30E-DD7B58A61F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicTypeProducer", "TopicTypeProducer\TopicTypeProducer.csproj", "{8F7AE8D8-EE35-4835-931C-810410DF7E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicTypeProducer", "TopicTypeProducer\TopicTypeProducer.csproj", "{8F7AE8D8-EE35-4835-931C-810410DF7E0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rpc", "Rpc", "{381574F4-ECEB-499B-BD19-9AE8D406AAD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCServer", "RPCServer\RPCServer.csproj", "{2168F1D2-1E95-4997-8671-578AAF160C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCCall", "RPCCall\RPCCall.csproj", "{3155A693-7A88-4BA0-B6E4-4793085C714F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,14 @@ Global
 		{8F7AE8D8-EE35-4835-931C-810410DF7E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F7AE8D8-EE35-4835-931C-810410DF7E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F7AE8D8-EE35-4835-931C-810410DF7E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2168F1D2-1E95-4997-8671-578AAF160C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2168F1D2-1E95-4997-8671-578AAF160C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2168F1D2-1E95-4997-8671-578AAF160C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2168F1D2-1E95-4997-8671-578AAF160C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3155A693-7A88-4BA0-B6E4-4793085C714F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3155A693-7A88-4BA0-B6E4-4793085C714F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3155A693-7A88-4BA0-B6E4-4793085C714F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3155A693-7A88-4BA0-B6E4-4793085C714F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +99,8 @@ Global
 		{9B56A0BF-C61D-4321-818B-A47F6C23BB9B} = {98CD434E-7944-4D92-AF2C-A756C5954875}
 		{56437227-70F8-47BF-A30E-DD7B58A61F04} = {BDE1DF76-CBDC-4DCA-A699-368526AEE319}
 		{8F7AE8D8-EE35-4835-931C-810410DF7E0B} = {FE54F42C-4AD8-4AC0-8403-0E7C9DCCBCBA}
+		{2168F1D2-1E95-4997-8671-578AAF160C19} = {381574F4-ECEB-499B-BD19-9AE8D406AAD2}
+		{3155A693-7A88-4BA0-B6E4-4793085C714F} = {381574F4-ECEB-499B-BD19-9AE8D406AAD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5FB68AA-357B-4D32-AB0A-64EBB5FD1E39}

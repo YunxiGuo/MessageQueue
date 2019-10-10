@@ -19,3 +19,5 @@
 /Sender/bin/Debug/netcoreapp3.0
 /Sender/obj
 /TopicTypeProducer/obj
+/RPCServer/obj
+/RPCCall/obj
